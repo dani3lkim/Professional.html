@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #3d82c7;
+    color: white;
+    padding: 20px 0;
+}
+
+h1, h3 {
+    font-weight: bold;
+}
+
+h2 {
+    color: #003366;
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.col-md-4, .col-md-8 {
+    flex: 1;
+}
+
+
+.contact-info, .skills {
+    background-color: #e6f0ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.education, .work-experience, .awards {
+    margin-bottom: 30px;
+}
+
+.job h4 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.job p {
+    margin-left: 20px;
+    font-size: 0.95em;
+}
+
+
+.btn {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0057cc;
+}
